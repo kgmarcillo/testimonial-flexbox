@@ -1,0 +1,119 @@
+.background{
+    display: flex;
+    justify-content: center;
+}
+
+img.borderp{
+    border: 2px solid #aa7af7;
+}
+
+img.borderpb{
+    border: 2px solid #7541c8;
+}
+
+body{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.black{
+    color:black;
+}
+
+p.username{
+    margin: 10px 10px 0px 5px;
+    float: left;
+    font-size:xx-small;
+}
+
+
+p.username +p{
+    margin: 10px 10px 0px 0px;
+    opacity: .5;
+    font-size: xx-small;
+    float: left;
+}
+
+
+p.username + p +p{
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+    font-size: small;
+    float: left;
+}
+
+p.username + p +p +p{
+    margin: 10px 10px 0px 10px;
+    opacity: .7;
+    font-size:xx-small;
+    float: left;
+}
+
+img{
+    width: 22px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 5px 10px 20px;
+}
+
+.container{
+    display: flex;
+    background-color: #ecf2f8;
+    justify-content: center;
+    margin: 25px;
+    padding: 25px;
+}
+
+.container-testimony{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-upper{
+    display: flex;
+}
+
+.container-down{
+    display: flex;
+}
+
+
+#DC{
+    background-color: #7541c8;
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#JW{
+    background-color:#48556a;
+    margin: 10px;
+    height: 200px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+#JH{
+    background-color: #ffffff;
+    margin: 10px;
+    width: 160px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+#KW{
+    background-color: #ffffff;
+    margin: 10px;
+    width: 160px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+#PA{
+    background-color:#19212e;
+    margin: 10px;
+    width: 400px;
+    height: 170px;
+    border-radius: 10px;
+}
