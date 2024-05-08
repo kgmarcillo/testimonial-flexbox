@@ -13,7 +13,7 @@ img.borderpb{
 
 body{
     color: #ffffff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
 }
 
 p.black{
@@ -22,16 +22,15 @@ p.black{
 
 p.username{
     margin: 10px 10px 0px 5px;
-    float: left;
     font-size:xx-small;
 }
 
 
 p.username +p{
-    margin: 10px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
     opacity: .5;
     font-size: xx-small;
-    float: left;
+    padding: 0px;
 }
 
 
