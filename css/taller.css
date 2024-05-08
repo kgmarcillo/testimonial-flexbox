@@ -23,6 +23,7 @@ p.black{
 p.username{
     margin: 10px 10px 0px 5px;
     font-size:xx-small;
+    padding: 0px;
 }
 
 
@@ -39,6 +40,7 @@ p.username + p +p{
     margin: 0px 10px 0px 10px;
     font-size: small;
     float: left;
+    padding: 0px 10px 0px 10px;
 }
 
 p.username + p +p +p{
@@ -46,10 +48,11 @@ p.username + p +p +p{
     opacity: .7;
     font-size:xx-small;
     float: left;
+    padding: 0px 10px 0px 10px;
 }
 
 img{
-    width: 22px;
+    width: 17px;
     border-radius: 10px;
     float: left;
     margin: 10px 5px 10px 20px;
@@ -89,14 +92,14 @@ img{
     background-color:#48556a;
     margin: 10px;
     height: 200px;
-    width: 160px;
+    width: 170px;
     border-radius: 10px;
 }
 
 #JH{
     background-color: #ffffff;
     margin: 10px;
-    width: 160px;
+    width: 180px;
     height: 170px;
     border-radius: 10px;
 }
@@ -104,7 +107,7 @@ img{
 #KW{
     background-color: #ffffff;
     margin: 10px;
-    width: 160px;
+    width: 180px;
     height: 390px;
     border-radius: 10px;
 }
@@ -112,7 +115,7 @@ img{
 #PA{
     background-color:#19212e;
     margin: 10px;
-    width: 400px;
+    width: 390px;
     height: 170px;
     border-radius: 10px;
 }
