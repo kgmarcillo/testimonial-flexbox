@@ -13,11 +13,11 @@ img.borderpb{
 
 body{
     color: #ffffff;
-    font-family: 'Lucida Sans';
+    font-family:Helvetica;
 }
 
 p.black{
-    color:black;
+    color:rgb(54, 52, 52);
 }
 
 p.username{
@@ -55,7 +55,7 @@ img{
     width: 17px;
     border-radius: 10px;
     float: left;
-    margin: 10px 5px 10px 20px;
+    margin: 10px 10px 10px 20px;
 }
 
 .container{
